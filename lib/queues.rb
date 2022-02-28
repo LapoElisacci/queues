@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
-require_relative "queues/version"
+require_relative 'queues/api'
+require_relative 'queues/version'
 
 module Queues
   class Error < StandardError; end
