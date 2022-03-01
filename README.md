@@ -1,8 +1,8 @@
-# Queues
+# Rails-Queues
+![](https://img.shields.io/static/v1?label=Language&message=Ruby&color=red)
+![](https://img.shields.io/static/v1?label=Latest&message=0.1.0.beta&color=blue)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/queues`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Rails implementation of Queues and Streams.
 
 ## Installation
 
@@ -16,23 +16,18 @@ And then execute:
 
     $ bundle install
 
-Or install it yourself as:
-
-    $ gem install queues
-
 ## Usage
 
-TODO: Write usage instructions here
+The gem acts as an orchestrator of Queues and Streamings for Rails applications.
+It won't do much on its own, but it will be the main dependency for all supported frameworks.
 
-## Development
+## Supported Frameworks
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+* [Rails-Queue Rabbit](https://github.com/LapoElisacci/queues-rabbit) - A RabbitMQ implementation framework
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/queues.
+Bug reports and pull requests are welcome on GitHub at https://github.com/LapoElisacci/queues.
 
 ## License
 
