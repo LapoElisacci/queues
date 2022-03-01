@@ -15,7 +15,7 @@ class QueuesGenerator < Rails::Generators::Base
   desc 'Initialize Rails for Queues'
 
   def generate_layout
-    template 'initializer.rb', 'app/queues/base.rb'
+    template 'application_queue.rb', 'app/queues/application_queue.rb'
     readme 'README'
   end
 end
