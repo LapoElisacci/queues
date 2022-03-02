@@ -1,6 +1,8 @@
-# Rails-Queues
+# <img src="https://user-images.githubusercontent.com/50866745/156426898-9f1dc8f4-7fdf-4eba-9c40-a6040b8bb129.png" width="128"> Queues
+
 ![](https://img.shields.io/static/v1?label=Language&message=Ruby&color=red)
 ![](https://img.shields.io/static/v1?label=Latest&message=0.1.0.beta&color=blue)
+
 
 A Rails implementation of Queues and Streams.
 
